@@ -137,6 +137,11 @@ input::-moz-placeholder {
     padding-bottom: 60px !important;
   }
 }
+@media (max-width: 415px) {
+  .second-picture-block {
+    display: none;
+  }
+}
 .header .header__wrapper {
   display: flex;
   justify-content: space-between;
