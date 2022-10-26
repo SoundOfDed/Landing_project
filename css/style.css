@@ -92,7 +92,7 @@ input::-moz-placeholder {
   color: #BBBBBB;
 }
 
-@media (max-width: 1228px) {
+@media (max-width: 1422px) {
   .appartments__wrapper {
     justify-content: center;
     text-align: center;
@@ -140,6 +140,37 @@ input::-moz-placeholder {
 @media (max-width: 415px) {
   .second-picture-block {
     display: none;
+  }
+}
+@media (max-width: 1455px) {
+  .intro__wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .intro__title h1 {
+    font-size: 42px !important;
+  }
+  .intro__first-block {
+    order: 1;
+  }
+  .icon__block {
+    position: absolute !important;
+    top: 100%;
+    right: 29.5%;
+  }
+  .intro__second-block {
+    order: 2;
+    position: static !important;
+  }
+  .intro__second-block img {
+    margin-top: 40px;
+    width: 450px;
+    border-bottom-left-radius: 29px;
+  }
+  .email--button {
+    right: 0 !important;
   }
 }
 .header .header__wrapper {
