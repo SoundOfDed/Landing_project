@@ -1,0 +1,62 @@
+// Media
+
+@media(max-width: 1228px){
+
+    // Appartments
+
+    .appartments__wrapper{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .appartments__pictures{
+            position: relative;
+            order: 2;
+            margin: 0 auto;
+
+            .first-picture-block{
+                position: static;
+                transform: none;
+                margin-right: 150px;
+            }
+
+            .second-picture-block{
+                position: static;
+                margin: 0;
+
+                .appartments__cloud{
+                    left: 33.5%;
+                    top: 25%;
+                }
+            }
+        }
+    }
+
+    .appartments__about{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(min-width: 1921px){
+
+    // Appartments
+
+    .appartments__wrapper{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1180px){
+    .companies__wrapper{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px !important;
+
+        .companies-logo:not(:last-child){
+            padding: 0 !important;
+            padding-bottom: 60px !important;
+        }
+    }
+}

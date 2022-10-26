@@ -1,12 +1,13 @@
 // Intro first block
 .intro__wrapper{
     display: flex;
+    position: relative;
 
     .intro__first-block{
         margin-top: 110px;
         max-width: 100%;
         width: 625px;
-        position: relative;
+        //position: relative;
         z-index: 9;
 
         .intro__title{

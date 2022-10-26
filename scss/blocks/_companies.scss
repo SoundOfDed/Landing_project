@@ -1,14 +1,12 @@
 // Companies
-.companies{
 
-    .companies__wrapper{
-        margin: 235px 0 90px 0;
-    
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    &-logo:not(:last-child){
+.companies__wrapper {
+    margin: 235px 0 90px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .companies-logo:not(:last-child) {
         padding: 0 95px 0 0;
     }
 }

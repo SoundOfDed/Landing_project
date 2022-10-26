@@ -80,8 +80,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 100%;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
 }
 
 input::-webkit-input-placeholder {
@@ -92,6 +92,51 @@ input::-moz-placeholder {
   color: #BBBBBB;
 }
 
+@media (max-width: 1228px) {
+  .appartments__wrapper {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .appartments__wrapper .appartments__pictures {
+    position: relative;
+    order: 2;
+    margin: 0 auto;
+  }
+  .appartments__wrapper .appartments__pictures .first-picture-block {
+    position: static;
+    transform: none;
+    margin-right: 150px;
+  }
+  .appartments__wrapper .appartments__pictures .second-picture-block {
+    position: static;
+    margin: 0;
+  }
+  .appartments__wrapper .appartments__pictures .second-picture-block .appartments__cloud {
+    left: 33.5%;
+    top: 25%;
+  }
+  .appartments__about {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1921px) {
+  .appartments__wrapper {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1180px) {
+  .companies__wrapper {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px !important;
+  }
+  .companies__wrapper .companies-logo:not(:last-child) {
+    padding: 0 !important;
+    padding-bottom: 60px !important;
+  }
+}
 .header .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -121,12 +166,12 @@ input::-moz-placeholder {
 
 .intro__wrapper {
   display: flex;
+  position: relative;
 }
 .intro__wrapper .intro__first-block {
   margin-top: 110px;
   max-width: 100%;
   width: 625px;
-  position: relative;
   z-index: 9;
 }
 .intro__wrapper .intro__first-block .intro__title h1 {
@@ -162,11 +207,11 @@ input::-moz-placeholder {
 
 .intro__second-block {
   position: absolute;
-  right: 13.5%;
+  right: 0;
 }
 
 .button {
-  padding: 18px 37px;
+  padding: 21px 37px;
   background-color: #F78434;
   color: #fff;
   font-weight: bold;
@@ -175,39 +220,41 @@ input::-moz-placeholder {
 
 .email--button {
   position: absolute;
-  top: 50%;
+  top: 44%;
   right: 25%;
 }
 
-.companies .companies__wrapper {
+.companies__wrapper {
   margin: 235px 0 90px 0;
   display: flex;
   flex-wrap: wrap;
 }
-.companies-logo:not(:last-child) {
+.companies__wrapper .companies-logo:not(:last-child) {
   padding: 0 95px 0 0;
 }
 
 .appartments__wrapper {
-  margin: 0 0 155px 0;
+  width: 100%;
+  max-width: 1287px;
+  margin-bottom: 155px;
   display: flex;
-  position: relative;
 }
-.appartments__wrapper .appartments__pictures {
+
+.appartments__pictures {
   display: flex;
   overflow: hidden;
 }
-.appartments__wrapper .appartments__pictures .first-picture-block img {
+.appartments__pictures .first-picture-block {
   position: absolute;
   transform: translate3d(-17%, 0, 0);
-}
-.appartments__wrapper .appartments__pictures .second-picture-block img {
-  margin-left: 320px;
-}
-.appartments__wrapper .appartments__pictures .first-picture-block {
   margin: 0 33px 0 0;
 }
-.appartments__wrapper .appartments__cloud {
+.appartments__pictures .second-picture-block {
+  position: relative;
+  margin: 0 178px 0 320px;
+}
+
+.appartments__cloud {
   display: flex;
   align-items: center;
   width: 300px;
@@ -218,29 +265,29 @@ input::-moz-placeholder {
   border-radius: 15px;
   position: absolute;
   top: 58.5%;
-  left: 32%;
+  left: 38%;
 }
-.appartments__wrapper .appartments__cloud .cloud__text {
+.appartments__cloud .cloud__text {
   margin: 0 0 0 20px;
 }
-.appartments__wrapper .appartments__cloud .cloud__text p {
+.appartments__cloud .cloud__text p {
   line-height: 1.7;
   letter-spacing: 1.15px;
 }
-.appartments__wrapper .appartments__cloud .cloud__title {
+.appartments__cloud .cloud__title {
   font-weight: bold;
 }
-.appartments__wrapper .appartments__about {
+
+.appartments__about {
   width: 375px;
-  max-width: 100%;
-  margin: 90px 155px 0 178px;
+  margin-top: 70px;
 }
-.appartments__wrapper .appartments__about .appartments__title h2 {
+.appartments__about .appartments__title h2 {
   font-weight: bold;
   font-size: 42px;
   line-height: 1.5;
 }
-.appartments__wrapper .appartments__about .appartments__subtitle {
+.appartments__about .appartments__subtitle {
   margin: 20px 0 58px 0;
   line-height: 1.7;
   letter-spacing: 1.15px;

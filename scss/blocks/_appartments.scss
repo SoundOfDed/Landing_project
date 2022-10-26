@@ -1,76 +1,69 @@
 // Appartments
-.appartments__wrapper{
-    margin: 0 0 155px 0;
+.appartments__wrapper {
+    width: 100%;
+    max-width: 1287px;
+    margin-bottom: 155px;
     display: flex;
-    position: relative;
+}
 
-    .appartments__pictures{
-        display: flex;
-        overflow: hidden;
+.appartments__pictures {
+    display: flex;
+    overflow: hidden;
 
-        .first-picture-block{
-
-            img{
-                position: absolute;
-                transform: translate3d(-17%, 0, 0);
-            }
-        }
-
-        .second-picture-block{
-            img{
-                margin-left: 320px;
-            }
-        }
-
-        .first-picture-block{
-            margin: 0 33px 0 0;
-        }
-
-    }
-
-    .appartments__cloud{
-        display: flex;
-        align-items: center;
-
-        width: 300px;
-        height: 141px;
-        padding: 30px;
-        background: #fff;
-        box-shadow: 4px 20px 42px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 15px;
+    .first-picture-block {
         position: absolute;
-        top: 58.5%;
-        left: 32%;
-
-        .cloud__text{
-            margin: 0 0 0 20px;
-            p{
-                line-height: 1.7;
-                letter-spacing: 1.15px;
-            }
-        }
-
-        .cloud__title{
-            font-weight: bold;
-        }
+        transform: translate3d(-17%, 0, 0);
+        margin: 0 33px 0 0;
     }
 
-    .appartments__about{
-        width: 375px;
-        max-width: 100%;
-        margin: 90px 155px 0 178px;
+    .second-picture-block {
+        position: relative;
+        margin: 0 178px 0 320px;
+    }
+}
 
-        .appartments__title{
-            h2{
-            font-weight: bold;
-            font-size: 42px;
-            line-height: 1.5;}
-        }
+.appartments__cloud {
+    display: flex;
+    align-items: center;
 
-        .appartments__subtitle{
-            margin: 20px 0 58px 0;
+    width: 300px;
+    height: 141px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 4px 20px 42px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    position: absolute;
+    top: 58.5%;
+    left: 38%;
+
+    .cloud__text {
+        margin: 0 0 0 20px;
+        p {
             line-height: 1.7;
             letter-spacing: 1.15px;
         }
+    }
+
+    .cloud__title {
+        font-weight: bold;
+    }
+}
+
+.appartments__about {
+    width: 375px;
+    margin-top: 70px;
+
+    .appartments__title {
+        h2 {
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 1.5;
+        }
+    }
+
+    .appartments__subtitle {
+        margin: 20px 0 58px 0;
+        line-height: 1.7;
+        letter-spacing: 1.15px;
     }
 }
