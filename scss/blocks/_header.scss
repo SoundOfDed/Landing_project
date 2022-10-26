@@ -1,0 +1,28 @@
+// Header
+.header{
+
+    .header__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__menu{
+        display: flex;
+        padding: 35px 0;
+
+    .menu__link{
+        margin-right: 42px;
+        transition: color .1s linear;
+
+        &:last-child{margin-right: 0px;}
+        &:visited{color: #323232;}
+        &:hover{color: $accent-color;}
+
+        &#active{
+            font-weight: bold;
+            color: $accent-color;
+        }
+        }
+    }
+}

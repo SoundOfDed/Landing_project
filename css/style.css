@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+  color: #323232;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1110px;
+}
+
+input::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+input::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.header .header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__menu {
+  display: flex;
+  padding: 35px 0;
+}
+.header .header__menu .menu__link {
+  margin-right: 42px;
+  transition: color 0.1s linear;
+}
+.header .header__menu .menu__link:last-child {
+  margin-right: 0px;
+}
+.header .header__menu .menu__link:visited {
+  color: #323232;
+}
+.header .header__menu .menu__link:hover {
+  color: #F78434;
+}
+.header .header__menu .menu__link#active {
+  font-weight: bold;
+  color: #F78434;
+}
+
+.intro__wrapper {
+  display: flex;
+}
+.intro__wrapper .intro__first-block {
+  margin-top: 110px;
+  max-width: 100%;
+  width: 625px;
+  position: relative;
+  z-index: 9;
+}
+.intro__wrapper .intro__first-block .intro__title h1 {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.intro__wrapper .intro__first-block .intro__subtitle {
+  font-size: 16px;
+  line-height: 1.7;
+  padding-top: 37px;
+  letter-spacing: 1.15px;
+}
+.intro__wrapper .intro__first-block .intro__email {
+  margin-top: 45px;
+  width: 459px;
+  height: 58px;
+  padding-left: 75px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 29px;
+  box-shadow: 0px 16px 30px #DFDFDF;
+}
+.intro__wrapper .intro__first-block .icon__block {
+  position: relative;
+}
+.intro__wrapper .intro__first-block .email__icon {
+  position: absolute;
+  margin-top: 45px;
+  top: 20px;
+  left: 31px;
+}
+
+.intro__second-block {
+  position: absolute;
+  right: 13.5%;
+}
+
+.button {
+  padding: 18px 37px;
+  background-color: #F78434;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 29px;
+}
+
+.email--button {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+}
+
+.companies .companies__wrapper {
+  margin: 235px 0 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.companies-logo:not(:last-child) {
+  padding: 0 95px 0 0;
+}
+
+.appartments__wrapper {
+  margin: 0 0 155px 0;
+  display: flex;
+  position: relative;
+}
+.appartments__wrapper .appartments__pictures {
+  display: flex;
+  overflow: hidden;
+}
+.appartments__wrapper .appartments__pictures .first-picture-block img {
+  position: absolute;
+  transform: translate3d(-17%, 0, 0);
+}
+.appartments__wrapper .appartments__pictures .second-picture-block img {
+  margin-left: 320px;
+}
+.appartments__wrapper .appartments__pictures .first-picture-block {
+  margin: 0 33px 0 0;
+}
+.appartments__wrapper .appartments__cloud {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 141px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 4px 20px 42px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  position: absolute;
+  top: 58.5%;
+  left: 32%;
+}
+.appartments__wrapper .appartments__cloud .cloud__text {
+  margin: 0 0 0 20px;
+}
+.appartments__wrapper .appartments__cloud .cloud__text p {
+  line-height: 1.7;
+  letter-spacing: 1.15px;
+}
+.appartments__wrapper .appartments__cloud .cloud__title {
+  font-weight: bold;
+}
+.appartments__wrapper .appartments__about {
+  width: 375px;
+  max-width: 100%;
+  margin: 90px 155px 0 178px;
+}
+.appartments__wrapper .appartments__about .appartments__title h2 {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.5;
+}
+.appartments__wrapper .appartments__about .appartments__subtitle {
+  margin: 20px 0 58px 0;
+  line-height: 1.7;
+  letter-spacing: 1.15px;
+}

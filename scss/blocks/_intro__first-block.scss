@@ -1,0 +1,50 @@
+// Intro first block
+.intro__wrapper{
+    display: flex;
+
+    .intro__first-block{
+        margin-top: 110px;
+        max-width: 100%;
+        width: 625px;
+        position: relative;
+        z-index: 9;
+
+        .intro__title{
+            h1{
+            font-weight: bold;
+            font-size: 54px;
+            line-height: 1.5;
+            letter-spacing: 0.8px;}
+        }
+    
+        .intro__subtitle{
+            font-size: 16px;
+            line-height: 1.7;
+            padding-top: 37px;
+            letter-spacing: 1.15px;
+        }
+    
+    
+        .intro__email{
+            margin-top: 45px;
+            width: 459px;
+            height: 58px; 
+            padding-left: 75px;
+    
+            background-color: rgb(255, 255, 255);
+            border-radius: 29px;
+            box-shadow: 0px 16px 30px #DFDFDF;
+        }
+    
+        .icon__block{
+            position: relative;
+        }
+    
+        .email__icon{
+            position: absolute;
+            margin-top: 45px;
+            top: 20px;
+            left: 31px;
+        }
+    }
+}

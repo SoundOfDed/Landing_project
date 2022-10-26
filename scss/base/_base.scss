@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #323232;
+    font-size: 16px;
+}
+
+// Container
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1110px;
+}
+
+input::-webkit-input-placeholder { color: #BBBBBB;}
+input::-moz-placeholder { color: #BBBBBB;}
