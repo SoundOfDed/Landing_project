@@ -313,6 +313,9 @@ input::-moz-placeholder {
   .first-picture-block {
     margin-right: 0 !important;
   }
+  .intro__first-block {
+    margin-top: 120px !important;
+  }
   .second-picture-block {
     display: none;
   }
