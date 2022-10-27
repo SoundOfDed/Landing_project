@@ -311,7 +311,10 @@ input::-moz-placeholder {
     display: none;
   }
   .first-picture-block {
-    margin-right: 0 !important;
+    margin: 0 auto !important;
+  }
+  .first-picture-block img {
+    width: 300px;
   }
   .intro__first-block {
     margin-top: 120px !important;

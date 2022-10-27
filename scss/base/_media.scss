@@ -280,7 +280,11 @@
     }
 
     .first-picture-block {
-        margin-right: 0 !important;
+        margin: 0 auto !important;
+
+        img{
+            width: 300px;
+        }
     }
 
     .intro__first-block{
