@@ -151,6 +151,7 @@ input::-moz-placeholder {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 60px;
   }
   .intro__title h1 {
     font-size: 42px !important;
@@ -174,6 +175,40 @@ input::-moz-placeholder {
   }
   .email--button {
     right: 0 !important;
+  }
+}
+@media (max-width: 1125px) {
+  .intro__wrapper {
+    margin-bottom: -140px;
+  }
+  .icon__block {
+    position: static !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__title h1 {
+    font-size: 28px !important;
+  }
+  .intro__second-block {
+    margin: 0 auto;
+  }
+  .intro__second-block img {
+    width: 300px;
+  }
+  .intro__email {
+    width: 250px !important;
+  }
+  .button {
+    padding: 12px 20px !important;
+  }
+  .email--button {
+    width: 130px;
+    position: relative !important;
+  }
+  .email__icon {
+    position: relative !important;
+    transform: translate(-463%, -538%) !important;
   }
 }
 .header .header__wrapper {
@@ -286,11 +321,10 @@ input::-moz-placeholder {
 .appartments__pictures .first-picture-block {
   position: absolute;
   transform: translate3d(-17%, 0, 0);
-  margin: 0 33px 0 0;
 }
 .appartments__pictures .second-picture-block {
   position: relative;
-  margin: 0 178px 0 320px;
+  margin: 0 178px 0 353px;
 }
 
 .appartments__cloud {

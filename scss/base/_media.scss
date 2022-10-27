@@ -80,6 +80,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-bottom: 60px;
     }
 
     .intro__title{
@@ -90,7 +91,6 @@
 
     .intro__first-block{
         order: 1;
-
     }
 
     .icon__block{
@@ -113,4 +113,54 @@
     .email--button{
         right: 0 !important;
     }
+}
+
+
+@media(max-width: 1125px){
+
+    // Appartments
+
+    .intro__wrapper{
+        margin-bottom: -140px;
+    }
+
+    .icon__block{
+        position: static !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro__title{
+
+        h1{
+        font-size: 28px !important;} 
+    }
+
+    .intro__second-block{
+        margin: 0 auto;
+        img{
+            width: 300px;
+        }
+    }
+
+    .intro__email{
+        width: 250px !important;
+
+    }
+
+    .button{
+        padding: 12px 20px !important;
+    }
+
+    .email--button{
+        width: 130px;
+        position: relative !important;
+    }
+
+    .email__icon{
+        position:  relative !important;
+
+    transform: translate(-463%, -538%) !important;    
+}
 }
