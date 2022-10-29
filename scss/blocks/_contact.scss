@@ -1,0 +1,42 @@
+// Contact
+
+.contact__wrapper{
+    display: flex;
+    align-items: stretch;
+
+    border-radius: 20px;
+    background-color: #58BEBF;
+    position: relative;
+}
+
+.contact__text{
+
+    background: 
+    url("/img/contact/Fill\ 1.svg") right top no-repeat, 
+    url("/img/contact/Oval.svg") right top no-repeat,
+    url("/img/contact/Oval2.svg") bottom left -186px no-repeat;
+
+    width: 555px;
+    padding-left: 95px;
+    padding-right: 94px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    p{
+        width: 320px;
+    }
+}
+
+.contact__img{
+    background: #fff;
+    padding: 25px 25px 0 0;
+    border-top-right-radius: 21px;
+    margin-top: 88px;
+}
+
+.contact__buttons-row{
+    display: flex;
+    column-gap: 20px;
+}

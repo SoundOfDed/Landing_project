@@ -147,7 +147,7 @@
     }
 
     .button {
-        padding: 12px 20px !important;
+        padding: 8px 17px !important;
     }
 
     .email--button {
@@ -206,7 +206,7 @@
         padding-top: 90px !important;
     }
 
-    .header__menu.active{
+    .header__menu.active {
         top: 0;
     }
 
@@ -263,7 +263,7 @@
     .header__burger.active:before {
         transform: rotate(45deg);
         top: 9px;
-        height: 2px; 
+        height: 2px;
     }
 
     .header__burger.active:after {
@@ -282,16 +282,27 @@
     .first-picture-block {
         margin: 0 auto !important;
 
-        img{
+        img {
             width: 300px;
         }
     }
 
-    .intro__first-block{
+    .intro__first-block {
         margin-top: 120px !important;
     }
 
     .second-picture-block {
         display: none;
+    }
+
+    // Serve
+
+    .serve__row{
+        display: block !important;
+        max-width: 540px;
+    }
+
+    .serve__card{
+        margin-bottom: 25px;
     }
 }

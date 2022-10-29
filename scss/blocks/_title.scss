@@ -1,0 +1,47 @@
+// Title
+
+.intro__title {
+    h1 {
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+}
+
+.contact__subtitle {
+    line-height: 1.7;
+    margin: 15px 0 30px 0;
+    color: white;
+}
+
+.subtitle {
+    line-height: 1.7;
+    letter-spacing: 1.15px;
+
+    margin: 15px 0 30px 0;
+    color: $black-color;
+}
+
+.subtitle--white{
+    color: #fff;
+}
+
+.title--white {
+    color: white;
+}
+
+.footer-title{
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    color: #323232;
+    margin-bottom: 18px;
+}   

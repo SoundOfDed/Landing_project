@@ -1,15 +1,76 @@
 // Button
-.button{
+.button {
     padding: 21px 37px;
 
     background-color: $accent-color;
     color: #fff;
     font-weight: bold;
-    border-radius: 29px; 
+    border-radius: 29px;
+    transition: all 0.3s ease;
+
+    &--white {
+        background: #fff;
+        color: $black-color;
+
+        &.button--play{
+
+            &::before {
+                content: "";
+    
+                position: absolute;
+                transform: translate(50%, 38%);
+                margin-top: 1px;
+    
+                display: block;
+                width: 12px;
+                height: 12px;
+    
+                background-image: url("/img/contact/watch-icon.svg");
+                background-size: initial;
+                background-repeat: no-repeat;
+            }
+
+            
+        }
+
+    }
+
+    &--play {
+        padding-left: 50px;
+        position: relative;
+    }
+
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
 }
 
-.email--button{
+.email--button {
     position: absolute;
     top: 44%;
     right: 25%;
 }
+
+.button--white {
+    background: #fff;
+    color: $black-color;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        left: 25px;
+        top: 20px;
+
+        display: block;
+        width: 12px;
+        height: 12px;
+    }
+
+    &:hover{
+        background-color: $black-color;
+        color: #fff;
+    }
+}
+

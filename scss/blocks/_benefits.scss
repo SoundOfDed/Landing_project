@@ -1,0 +1,52 @@
+// Benefits
+
+.benefits-heading{
+    text-align: center;
+    padding-bottom: 58px;
+}
+
+.benefits-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefits-item{
+
+    .title{
+        font-size: 28px;
+        line-height: auto;
+        padding: 15px 0 2px 0;
+    }
+
+    .subtitle{
+        margin: auto;
+    }
+
+    .benefits-icon-circle{
+        transition: all 0.3s ease;
+    }
+
+    &:hover{
+
+        .benefits-icon-circle{
+            fill: $accent-color;
+            fill-opacity: 1;
+        }
+
+        .benefits-icon-path{
+            fill: white;
+        }
+    }
+}
+
+.benefits-item:not(:last-child){
+    margin-right: 35px;
+}
+
+.serve__card-text{
+    
+    .subtitle{
+        margin: 0;
+    }
+}
