@@ -529,7 +529,7 @@ input::-moz-placeholder {
 }
 
 .contact__text {
-  background: url("img/contact/Fill 1.svg") right top no-repeat, url("img/contact/Oval.svg") right top no-repeat, url("img/contact/Oval2.svg") bottom left -186px no-repeat;
+  background: url("/img/contact/Fill 1.svg") right top no-repeat, url("/img/contact/Oval.svg") right top no-repeat, url("/img/contact/Oval2.svg") bottom left -186px no-repeat;
   width: 555px;
   padding-left: 95px;
   padding-right: 94px;
@@ -796,7 +796,7 @@ input::-moz-placeholder {
 .feedback {
   padding-top: 200px;
   margin-top: 95px;
-  background-image: url("img/feedback/feedback-bg.svg");
+  background-image: url("/img/feedback/feedback-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -807,7 +807,7 @@ input::-moz-placeholder {
   display: block;
   width: 743px;
   height: 372px;
-  background-image: url("img/feedback/feedback-oval.svg");
+  background-image: url("/img/feedback/feedback-oval.svg");
   background-size: initial;
   bottom: 0;
   left: 45%;
@@ -815,7 +815,7 @@ input::-moz-placeholder {
 .feedback::after {
   content: "";
   position: absolute;
-  background-image: url("img/feedback/feedback-girl.svg");
+  background-image: url("/img/feedback/feedback-girl.svg");
   background-size: initial;
   display: block;
   width: 478px;
