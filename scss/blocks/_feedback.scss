@@ -3,7 +3,7 @@
 .feedback{
     padding-top: 200px;
     margin-top: 95px;
-    background-image: url("/img/feedback/feedback-bg.svg");
+    background-image: url("../img/feedback/feedback-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -14,7 +14,7 @@
         display: block;
         width: 743px;
         height: 372px;
-        background-image: url("/img/feedback/feedback-oval.svg");
+        background-image: url("../img/feedback/feedback-oval.svg");
         background-size: initial;
 
         bottom: 0;
@@ -24,7 +24,7 @@
     &::after{
         content: '';
         position: absolute;
-        background-image: url("/img/feedback/feedback-girl.svg");
+        background-image: url("../img/feedback/feedback-girl.svg");
         background-size: initial;
 
         display: block;
