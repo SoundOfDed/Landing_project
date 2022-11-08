@@ -11,10 +11,15 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
         <title>Landing project</title>
     </head>
     <body>
         <!-- Header -->
+
         <nav class="header">
             <div class="container">
                 <div class="header__wrapper">
@@ -88,7 +93,10 @@
                                         fill="#E8E8E8"
                                     />
                                 </svg>
-                                <a href="#" class="button email--button"
+                                <a
+                                    href="#"
+                                    id="button-js"
+                                    class="button email--button"
                                     >Subscribe</a
                                 >
                             </div>
@@ -151,6 +159,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="appartments__about">
                     <div class="appartments__title">
                         <h2 class="title">We provide best space for you!</h2>
@@ -167,6 +176,29 @@
                         </h3>
                     </div>
                     <a href="#" class="button">Learn more</a>
+                </div>
+                
+                <!-- Slider -->
+                <div class="swiper-container">
+                    <!-- Оболочка для слайдера -->
+                    <div class="swiper-wrapper">
+                        <!-- Оболочка для отдельного слайда -->
+                        <div class="swiper-slide"><img src="img/appartments/appartment-1.svg" alt="" /></div>
+                        <div class="swiper-slide"><img src="img/appartments/appartment-2.svg" alt="" /></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="appartments__cloud" style="z-index: 99;">
+                        <div class="cloud__icon">
+                            <img
+                                src="img/appartments/appartment-logo.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="cloud__text">
+                            <h3 class="cloud__title">Twelve West Lake</h3>
+                            <p>Space for up to 150 people</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -602,9 +634,7 @@
 
         <div class="feedback">
             <div class="container">
-
                 <div class="feedback__info">
-                    
                     <h2 class="title title--white">
                         Get experience from the expert
                     </h2>
@@ -613,7 +643,6 @@
                         aliquid ex
                     </p>
                     <a href="#" class="button button--white">Contact Us</a>
-
                 </div>
             </div>
         </div>
@@ -622,62 +651,87 @@
 
         <div class="footer">
             <div class="container">
-
                 <div class="footer__wrapper">
-
                     <div class="footer__social">
-
                         <a href="#" class="header-logo">
                             <img src="img/header/header-logo.svg" alt="" />
                         </a>
-                        <p class="subtitle">Quae fuerit causa, nollem me ab illo inventore veritatis et.</p>
+                        <p class="subtitle">
+                            Quae fuerit causa, nollem me ab illo inventore
+                            veritatis et.
+                        </p>
 
                         <div class="social__icons">
-                            <a class="social-icon" href="#"><img src="img/footer/facebook-icon.svg" alt=""></a>
-                            <a class="social-icon" href="#"><img src="img/footer/twitter-icon.svg" alt=""></a>
-                            <a class="social-icon" href="#"><img src="img/footer/youtube-icon.svg" alt=""></a>
-                            <a class="social-icon" href="#"><img src="img/footer/linkedin-icon.svg" alt=""></a>
+                            <a class="social-icon" href="#"
+                                ><img src="img/footer/facebook-icon.svg" alt=""
+                            /></a>
+                            <a class="social-icon" href="#"
+                                ><img src="img/footer/twitter-icon.svg" alt=""
+                            /></a>
+                            <a class="social-icon" href="#"
+                                ><img src="img/footer/youtube-icon.svg" alt=""
+                            /></a>
+                            <a class="social-icon" href="#"
+                                ><img src="img/footer/linkedin-icon.svg" alt=""
+                            /></a>
                         </div>
-
                     </div>
 
                     <div class="footer__links">
-
                         <div class="footer__block">
                             <h3 class="footer-title">Privacy</h3>
-                            <a class="footer-link subtitle" href="#">Si sine causa</a>
-                            <a class="footer-link subtitle" href="#">Quae fuerit causa</a>
-                            <a class="footer-link subtitle" href="#">Certe, inquam</a>
-                            <a class="footer-link subtitle" href="#">Torquatos nostros? </a>
+                            <a class="footer-link subtitle" href="#"
+                                >Si sine causa</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Quae fuerit causa</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Certe, inquam</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Torquatos nostros?
+                            </a>
                         </div>
 
                         <div class="footer__block">
                             <h3 class="footer-title">Legal</h3>
-                            <a class="footer-link subtitle" href="#">Ut placet, inquam</a>
-                            <a class="footer-link subtitle" href="#">Certe, inquam</a>
-                            <a class="footer-link subtitle" href="#">Et quidem rerum</a>
-                            <a class="footer-link subtitle" href="#">At vero eos et</a>
+                            <a class="footer-link subtitle" href="#"
+                                >Ut placet, inquam</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Certe, inquam</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Et quidem rerum</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >At vero eos et</a
+                            >
                         </div>
 
                         <div class="footer__block">
                             <h3 class="footer-title">Contact</h3>
-                            <a class="footer-link subtitle" href="#">Primum igitur</a>
-                            <a class="footer-link subtitle" href="#">Certe, inquam</a>
-                            <a class="footer-link subtitle" href="#">Quae fuerit causa</a>
+                            <a class="footer-link subtitle" href="#"
+                                >Primum igitur</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Certe, inquam</a
+                            >
+                            <a class="footer-link subtitle" href="#"
+                                >Quae fuerit causa</a
+                            >
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
 
-        <!-- /Footer -->
-            
+            <!-- /Footer -->
         </div>
 
         <!-- Script -->
 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script src="js/script.js"></script>
     </body>

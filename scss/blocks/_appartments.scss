@@ -4,11 +4,13 @@
     max-width: 1287px;
     margin-bottom: 155px;
     display: flex;
+    position: relative;
 }
 
 .appartments__pictures {
     display: flex;
     overflow: hidden;
+    min-width: 0;
 
     .first-picture-block {
         position: absolute;
@@ -19,6 +21,15 @@
         position: relative;
         margin: 0 178px 0 353px;
     }
+}
+
+// Swiper
+.swiper-container{
+    display: none;
+}
+
+.swiper-pagination{
+    top: 100%;
 }
 
 .appartments__cloud {
