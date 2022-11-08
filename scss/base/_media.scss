@@ -296,104 +296,99 @@
         display: none;
     }
 
-    .appartments__pictures{
+    .appartments__pictures {
         display: none !important;
     }
 
-    .appartments__cloud{
+    .appartments__cloud {
         top: 85% !important;
     }
 
-    .swiper-container{
+    .swiper-container {
         display: block !important;
     }
 
-    
     // Serve
 
-    .serve__row{
+    .serve__row {
         display: block !important;
         max-width: 540px;
     }
 
-    .serve__card{
+    .serve__card {
         margin-bottom: 25px;
     }
 
     // Contact
-    .contact__img{
+    .contact__img {
         display: none;
     }
 
-    body{
-        
-        .title{
+    body {
+        .title {
             font-size: 32px;
         }
     }
 
-    .contact{
+    .contact {
         margin-top: 200px !important;
         max-width: 555px;
         margin: 0 auto !important;
     }
 
-    .contact__text{
-
-        p{
+    .contact__text {
+        p {
             width: auto !important;
         }
     }
 
-    .contact__buttons-row{
+    .contact__buttons-row {
         flex-wrap: wrap;
 
-        .button--white{
+        .button--white {
             margin-top: 40px;
         }
     }
 
     // Benefits
 
-    .benefits-row{
+    .benefits-row {
         flex-wrap: wrap;
         justify-content: center !important;
 
-        .benefits-item{
+        .benefits-item {
             margin-right: 0 !important;
             margin-bottom: 15px;
         }
     }
 
     // Testimonials
-    
-    .testimonials__heading{
+
+    .testimonials__heading {
         flex-wrap: wrap;
         text-align: center;
         justify-content: center !important;
     }
 
-    .testimonials__row{
+    .testimonials__row {
         flex-wrap: wrap;
         justify-content: center !important;
     }
 
-    .testimonials__card{
+    .testimonials__card {
         max-width: 380px;
         width: 100%;
         margin-right: 0 !important;
     }
 
-    .testimonials-icon{
+    .testimonials-icon {
         right: -2.5% !important;
     }
 
-
     // Feedback
 
-    .feedback{
-
-        &::after{
+    .feedback {
+        &::after {
             background-repeat: no-repeat;
             background-size: 400px !important;
             top: 5.1%;
@@ -402,18 +397,18 @@
 
     // Serve
 
-    .serve__row{
+    .serve__row {
         padding-top: 30px;
         margin: 0 auto !important;
     }
 
     // Footer
 
-    .footer__wrapper{
+    .footer__wrapper {
         flex-wrap: wrap;
-        justify-content: center !important; 
+        justify-content: center !important;
 
-        .footer__social{
+        .footer__social {
             margin-bottom: 50px;
         }
     }
